@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #b3835b;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    max-width: 467px;
+    margin: auto;
+    justify-content: space-between;
+}
+.header a {
+    color: #fff;
+}
+.header a:hover{
+    color: #000;
+    transition: .3s all linear;
+}
+.container {
+    max-width: 467px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius:0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container img{
+    width: 300px;
+}
+.buttons a {
+    background-color: #b3835b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.buttons a:hover{
+    background-color: #fff;
+    color: #b3835b;
+    transition: .3s all linear;
+    border: 1px solid #b383
+}
+.buttons .gift {
+    background-color: red;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #555;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.header img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.content h2{
+    color: #b3835b;
+}
+.content p{
+    font-size: 1rem;
+    text-align:justify;
+}
+.container p a{
+    color: #b3835b;
+    text-decoration: none;
+}
+.footer-title{
+    color: #b3835b;
+}
+section a{
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #b3835b;
+    border-radius: 5px;
+    
+}
+section a:hover{
+    background-color: #fff;
+    color: #b3835b;
+    transition: .3s all linear;
+    border: 1px solid #b3835b;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     
+}
+footer a{
+    text-decoration: none;
+    margin: 10px;
+    color: #b3835b;
+}
