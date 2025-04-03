@@ -1,0 +1,12 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://bswin99.com/#/register?invitationCode=78376600607",
+    "name": "BSWIN",
+    "description": "Best online gaming and betting platform with exclusive promotions.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "BSWIN",
+        "logo": "https://www.bswiner.com/assets/images/logo.png"
+    }
+}

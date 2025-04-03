@@ -32,20 +32,19 @@
     <!-- Import CSS style  -->
     <link rel="stylesheet" href="style.css">
     <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-        {
-            "@context": "Sign up or log in to BSWIN, the leading gaming platform with casino games and sports betting. Enjoy fast payouts and exclusive promotions",
-            "@type": "WebSite",
-            "url": "https://bswin99.com/#/register?invitationCode=78376600607",
-            "name": "BSWIN",
-            "description": "Best online gaming and betting platform with exclusive promotions.",
-            "publisher": {
-                "@type": "Organization",
-                "name": "BSWIN",
-                "logo": "https://www.bswiner.com/assets/images/logo.png"
-            }
-        }
-    </script>
+    <script type="application/ld+json" src="https://bswin99.com/structured-data.json"></script>
+    <script>
+        fetch('https://bswin99.com/structured-data.json')
+          .then(response => response.json())
+          .then(data => {
+            let script = document.createElement('script');
+            script.type = 'application/ld+json';
+            script.text = JSON.stringify(data);
+            document.head.appendChild(script);
+          })
+          .catch(error => console.error('Error loading JSON-LD:', error));
+        </script>        
+        
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.bswiner.com">
