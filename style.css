@@ -46,15 +46,23 @@ body {
 .container img{
     width: 300px;
 }
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .buttons a {
     background-color: #b3835b;
     border: none;
     color: white;
     padding: 10px 20px;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
     border-radius: 5px;
     text-decoration: none;
+ 
+
 }
 .buttons a:hover{
     background-color: #fff;
